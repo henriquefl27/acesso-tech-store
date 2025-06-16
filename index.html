@@ -1,74 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Acesso Tech Store</title>
   <style>
     body {
-      background: #f2f2f2;
-      font-family: Arial, sans-serif;
-      text-align: center;
+      background: #e3f2fd;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
       padding: 30px;
+      text-align: center;
     }
+
     .container {
-      max-width: 400px;
-      margin: 0 auto;
       background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      padding: 20px;
+      max-width: 480px;
+      margin: auto;
+      padding: 30px 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     }
+
+    .logo {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
     h1 {
+      margin: 0;
       font-size: 24px;
-      margin-bottom: 20px;
-      color: #111;
+      color: #222;
     }
+
+    .product-image {
+      width: 100%;
+      border-radius: 12px;
+      margin: 20px 0;
+    }
+
     .btn {
       display: block;
       width: 100%;
       margin: 10px 0;
       padding: 15px;
       background: #1e88e5;
-      color: white;
+      color: #fff;
       text-decoration: none;
-      border-radius: 10px;
       font-size: 16px;
+      font-weight: bold;
+      border-radius: 12px;
       transition: background 0.3s;
     }
+
     .btn:hover {
       background: #1565c0;
     }
+
+    .btn.whatsapp {
+      background: #25d366;
+    }
+
+    .btn.whatsapp:hover {
+      background: #1ebe5d;
+    }
+
     .footer {
       margin-top: 20px;
       font-size: 14px;
-      color: #777;
+      color: #666;
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/512/732/732221.png" alt="Logo Raio" />
     <h1>Acesso Tech Store</h1>
 
-    <a href="https://kiwify.app/1RoQa1F" class="btn" target="_blank">
-      🎧 Máquina De Cortar Cabelo Parágrafo Barba Masculina Designer Aleatório Elétrico Profissional
-    </a>
+    <img class="product-image" src="https://raw.githubusercontent.com/henriquefl27/acesso-tech-store/main/produtos.jpg" alt="Produtos em Destaque" />
 
-    <a href="https://kiwify.app/3fBLs1I" class="btn" target="_blank">
-      🔊 Soundcore by Anker P20i Verdadeiro Fones De Ouvido Sem Fio 30H
-    </a>
+    <a href="https://kiwify.app/1RoQa1F" class="btn">💈 Máquina De Cortar Cabelo Parágrafo Barba Masculina</a>
+    <a href="https://kiwify.app/3fBLs1I" class="btn">🎧 Soundcore by Anker P20i Verdadeiro Fones De Ouvido Sem Fio</a>
+    <a href="https://kiwify.app/tVxCVpQ" class="btn">🔊 Com Neutro,alexa,interruptor inteligente</a>
+    <a href="https://kiwify.app/QZYELqG" class="btn">🖱️ Mouse gamer para jogo computador 3200dpi com LED laser X7 USB Botões Profissional</a>
+    <a href="https://kiwify.app/NLhpurM" class="btn">🔦 T9 Lanterna Tática Mais Forte Do Mundo Potente Sitio Fazenda</a>
 
-    <a href="https://kiwify.app/tVxCVpQ" class="btn" target="_blank">
-      🚲 Alexa
-    </a>
-
-    <a href="https://kiwify.app/QZYELqG" class="btn" target="_blank">
-      🔦 Mouse gamer para jogo computador 3200dpi com LED laser X7 USB Botões Profissional
-    </a>
-
-    <a href="https://kiwify.app/NLhpurM" class="btn" target="_blank">
-      🔌 T9 Lanterna Tática Mais Forte Do Mundo Potente Sitio Fazenda
-    </a>
+    <a href="https://wa.me/5577988830361" class="btn whatsapp">💬 Fale conosco no WhatsApp</a>
 
     <div class="footer">
       Envio rápido e produtos com garantia. Aproveite as ofertas!
